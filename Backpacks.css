@@ -1,0 +1,201 @@
+*{
+  padding: 0;
+  margin: auto;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+ 
+.bag-text{
+  padding: 20px 20px;
+}
+
+.bag-details{
+  line-height: 23px;
+}
+
+.bag-text h3{
+  font-size: 40px;
+  padding-left: 20px;
+
+}
+
+.bag-text p{
+  font-size: 12px;
+  line-height: 20px;
+  padding: 20px;
+}
+
+.bags-section{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ align-items: center;
+ gap: 10px;
+ margin: 0px 20px;
+}
+.Bag3 img{
+  margin-bottom: 2px;
+}
+
+.Bag3 p{
+  padding-bottom: 80px;
+  text-decoration:underline;
+}
+
+.Bag7{
+ grid-column: span 2;
+
+}
+
+.Bag13{
+  grid-column: span 2;
+}
+
+.Bag13 img{
+  width: 850px;
+  position: relative;
+}
+
+.Bag12 img{
+ width: 410px;
+}
+
+.Bag7 img{
+  width: 850px;
+  position: relative;
+ 
+}
+
+.Bag7 .text{
+  position: absolute;
+  top: 1600px;
+  left: 50px;
+  color:#ffffff;
+}
+
+.Bag7 .text h3,
+.Bag13 .text h3
+{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.Bag7 .text p,
+.Bag13 .text p{
+  font-size: 15px;
+}
+
+.Bag13 .text{
+  position: absolute;
+  top: 2640px;
+  left: 500px;
+  color: #ffffff;
+}
+
+.Discover{
+  text-decoration: underline;
+  margin-bottom: 60px;
+ 
+}
+
+
+
+
+
+.bags-section img{
+ height: 420px;
+ 
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .bags-section{
+    grid-template-columns: repeat(3, 1fr);
+    margin:30px 20px;
+    gap: 10px;
+  
+  }
+
+  .bags-section img{
+    width: 200px;
+    height: 200px;
+  }
+
+  
+
+  .Bag7 img{
+    width: 500px;
+  }
+
+  
+
+  .Bag13 img{
+    width: 500px;
+  }
+
+  .Bag7 .text{
+    top: 1000px;
+  }
+
+  .Bag13 .text{
+    top: 1620px;
+    left: 270px;
+  }
+  
+}
+
+
+@media (min-width:200px) and (max-width:767px) {
+  .bags-section{
+    grid-template-columns: repeat(2, 1fr);
+    margin:20px 20px;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .bags-section img{
+    width: 160px;
+    height: 200px;
+   
+  }
+
+  .Bag7 img{
+    width: 350px;
+    grid-template-columns: span 2;
+  }
+
+  
+
+  .Bag13 img{
+    width: 350px;
+    grid-template-columns: span 2;
+  }
+
+  .Bag7 .text{
+    top: 1530px;
+    left: 30px;
+    
+  }
+
+  .Bag7 .text h3{
+    font-size: 20px;
+  }
+
+  .Bag7 .text p{
+    font-size: 10px;
+  }
+
+  .Bag13 .text{
+    top: 2920px;
+    left: 40px;
+  }
+
+  .Bag13 .text h3{
+    font-size: 20px;
+  }
+
+  .Bag13 .text p{
+    font-size: 10px;
+  }
+
+}
