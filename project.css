@@ -1,0 +1,646 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-heading{
+    background-color: white;
+} 
+.nav-heading .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+.nav-bar .CARL{
+  font-family: "grotesk-condensed, grotesk-condensed-fallback";
+  font-optical-sizing: auto;
+  font-weight: inherit;
+  font-style: normal;
+}
+.nav-bar .all-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.all-items .nav1 .ul1, .all-items .nav2 .ul2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+    color: black;
+}
+.nav-heading .nav-bar  a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.nav2 .ul2 .fa-bars{
+    display: none;
+}
+.nav2 .ul2 .NG{
+    display: block;
+}
+
+
+.background{
+    background: url(images/man\ looking\ back\ background\ image.webp);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: inherit;
+}
+.background .back-g{
+    padding: 280px 25px;
+}
+.background h1{
+    color: white;
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 540;
+}
+.background button{
+    width: 350px;
+    height: 50px;
+    border: 3px white solid;
+}
+.background button p{
+    font-size: 20px;
+}
+.phase3 .all-phase3{
+    padding: 30px 25px;
+    background-color: whitesmoke;
+}
+
+.phase3 .all-phase3 .might p{
+    font-size: 25px;
+}
+.phase3 .all-phase3 .might-image{
+    display: flex;
+    padding: 20px 0px;
+    gap: 25px;
+    /* background-color: aqua; */
+}
+.all-phase3 .might-image .img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 213, 213);
+    width: 390px;
+}
+.all-phase3 .might-image .might-image1 img{
+    width: 300px;
+}
+.all-phase3 .might-image .might-image1 h6{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+.all-phase3 .might-image .might-image1 h4{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+}
+.all-phase3 .might-image .might-image1 p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+.phase4 .all-phase4{
+    padding: 0px 25px;
+}
+.phase4 .all-phase4 .phase4-first-text{
+    display: grid;
+    gap: 5px;
+    color: rgb(70, 17, 17);
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+}
+.phase4 .all-phase4 .phase4-first-text p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.phase4 .all-phase4 .phase4-first-text h3, .phase4 .all-phase4 .phase4-first-text h2, .carrier-image .bag-carrier-text h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: rgb(95, 12, 12);
+}
+.all-phase4 .carrier-image img{
+    width: 52%;
+}
+.all-phase4 .carrier-image{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.carrier-image .bag-carrier-text {
+    display: grid;
+    gap: 50px;
+}
+.carrier-image .bag-carrier-text #p1{
+    font-family: "Open Sans", sans-serif;
+    width: 500px;
+    color: rgb(95, 12, 12);
+    font-weight: 400;
+}
+.bag-carrier-text .shop{
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+.bag-carrier-text .shop #p2{
+    padding: 0px 0px 0px 15px;
+}
+.bag-carrier-text .shop #p3{
+    padding: 0px 15px 0px 0px;
+}
+.phase5 .all-phase5{
+    padding: 50px 25px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.all-phase5 .phase5-img1{
+    font-family: "Open Sans", sans-serif;
+}
+.all-phase5 .phase5-img1 .first{
+    font-weight: 500;
+    display: flex;
+    gap: 30px;
+}
+.all-phase5 .phase5-img1 .first img{
+    width: 300px;
+}
+.all-phase5 .phase5-img1 h1{
+    font-size: 40px;
+    font-weight: 450;
+    padding: 30px 0px 60px 0px;
+}
+.all-phase5 .phase5-img1 .first p{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+/* .all-phase5 .phase5-img2 {
+    position: sticky !important;
+    top: 0 !important;
+} */
+.all-phase5 .phase5-img2 img{
+    width: 550px;
+    padding: 30px 0px 0px 0px;
+}
+.phase6 .all-phase6{
+    padding: 25px;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    color: white;
+    font-size: 12px;
+}
+.phase6 .all-phase6 img{
+    width: 100%;
+}
+.all-phase6 .phase6-all-text{
+    position: absolute;
+    bottom: 300px;
+    left: 100px;
+    display: grid;
+    gap: 50px;
+} 
+.all-phase6 .phase6-all-text .phase6-text{
+    display: grid;
+    gap: 30px;
+}
+.all-phase6 .phase6-all-text .phase6-text p{
+    width: 300px;
+    font-size: 25px;
+}
+.all-phase6 .phase6-all-text .phase6-nav nav ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+
+.phase7 .all-phase7{
+    padding: 25px;
+    display: flex;
+    gap: 15px;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+}
+.phase7 h1{
+    font-family: "Open Sans", sans-serif;
+    padding: 0px 25px;
+    font-size: 40px;
+    font-weight: 450;
+}
+.phase7 .all-phase7 .phase7-image img{
+    width: 400px;
+}
+.phase7 .all-phase7 .phase7-text{
+    display: grid;
+    gap: 20px;
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.before-footer{
+    background-color: rgb(231, 229, 228);
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+}
+.before-footer-text{
+    padding: 25px;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer{
+    background-color: rgb(95, 12, 12);
+    font-family: "Open Sans", sans-serif;
+}
+.footer .all-footer{
+    padding: 20px 25px;
+    display: flex;
+    gap: 100px;
+}
+.footer .all-footer .logo img{
+    width: 120px;
+    color: white;
+}
+.footer .all-footer .logo{
+    display: grid;
+    gap: 50px;
+}
+.footer .all-footer .logo h3{
+    width: 500px;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+}
+.all-footer .logo .input{
+    background-color: white;
+    width: 450px;
+    height: 60px;
+}
+.all-footer .logo .input input{
+    border: 0;
+    width: 350px;
+    height: 60px;
+    padding: 0px 0px 0px 20px;
+}
+.all-footer .logo .input button{
+    height: 60px;
+    border: 0;
+    width: 45px;
+    background-color: white;
+    padding: 0px 20px 0px 0px;
+}
+.all-footer .logo-text{
+    display: flex;
+    padding: 50px 0px 0px 0px;
+    gap: 70px;
+    font-size: 18px;
+}
+.all-footer .logo-text .help{
+    display: grid;
+    gap: 10px;
+    color: white;
+}
+.all-footer .logo-text .help1{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.all-footer .logo-text .help2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.all-footer .logo-text .help3{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.logo-text  p{
+    font-weight: 500;
+    font-size: 17px;
+}
+.logo-text .help h4{
+    font-weight: 300;
+}
+.footer .term{
+    display: flex;
+    gap: 10px;
+    padding: 40px 25px;
+    align-items: end;
+    justify-content: end;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+
+
+@media (min-width:200px) and (max-width:767px){
+    .all-items .nav1 .ul1{
+        display: none;
+    }
+    .nav-bar .CARL{
+        font-size: 20px;
+    }
+    .all-items .nav2 .ul2{
+        font-size: 30px;
+    }
+    .all-items .nav2 .ul2 i{
+        font-size: 27px;
+    }
+    .background{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    
+    }
+    .background h1{
+        color: white;
+        font-family: "Rethink Sans", sans-serif;
+        font-size: 30px;
+        font-weight: 540;
+    }
+    .background .back-g{
+        position: relative;
+        bottom: 250px;
+    }
+    .background button{
+        width: 250px;
+        height: 40px;
+        border: 3px white solid;
+    }
+    .nav2 .ul2 .fa-bars{
+        display: block;
+    }
+    .nav2 .ul2 .NG{
+        display: none;
+    }
+    .phase3 .all-phase3 .might-image{
+        display: grid;
+    }
+    .might-image .bag3 img{
+        width: 100px;
+    }
+    .all-phase3 .might-image .img{
+        width: 350px;
+    }
+    .phase4 .all-phase4 .phase4-first-text{
+        width: 100px;
+    }
+    .phase4 .all-phase4 .phase4-first-text p{
+        width: 300px;
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    }
+    .phase4 .all-phase4 .phase4-first-text h3, .phase4 .all-phase4 .phase4-first-text h2{
+        width: 300px;
+        padding: 0;
+        font-size: 25px;
+    }
+    .carrier-image .bag-carrier-text h1{
+        font-size: 20px;
+    }
+    .all-phase4 .carrier-image{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .carrier-image .bag-carrier-text #p1{
+        width: 300px;
+    }
+    .all-phase4 .carrier-image img{
+        width: 100%;
+    }
+    .bag-carrier-text .shop{
+        width: 350px;
+    }
+    .phase5 .all-phase5{
+        display: grid;
+        
+    }
+    .all-phase5 .phase5-img2 img{
+        width: 370px;
+    }
+    
+    .all-phase5 .phase5-img1 .first{
+        display: grid;
+        grid-area: 10px;
+        font-size: 30px;
+    } 
+    .all-phase6 .phase6-all-text{
+        bottom: 50px;
+        gap: 15px;
+        left: 50px;
+        
+    }
+    .all-phase6 .phase6-all-text .phase6-text p{
+        width: 200px;
+        font-size: 20px;
+    }
+    .phase7 .all-phase7{
+        display: grid;
+    }
+    .phase7 .all-phase7 .phase7-image img{
+        width: 370px;
+    } 
+    .phase7 .all-phase7 .phase7-image1 img{
+        width: 370px;
+    } 
+    .phase7 .all-phase7 .phase7-text1{
+        bottom: 1380px;
+    }
+    .phase7 .all-phase7 .phase7-text2{
+        bottom: 700px;
+    }
+    
+    .all-footer .logo-text{
+        display: grid;
+    }  
+    .footer{
+        padding: 0;
+        width: 100%;
+    }  
+    .footer .all-footer{
+        display: grid;
+    }
+    .footer .term{
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start;
+    }    
+    .all-footer .logo .input{
+        background-color: white;
+        width: 350px;
+        height: 60px;
+    }
+    .all-footer .logo .input input{
+        border: 0;
+        width: 250px;
+        height: 60px;
+        padding: 0px 0px 0px 20px;
+    }
+    .all-footer .logo .input button{
+        height: 60px;
+        border: 0;
+        width: 45px;
+        background-color: white;
+        padding: 0px 20px 0px 0px;
+    }
+    .footer .all-footer .logo h3{
+        width: 350px;
+        font-weight: 500;
+        /* font-size: 30px; */
+        color: white;
+    }
+    .footer .all-footer .logo img{
+        width: 200px;
+        color: white;
+    }
+    .all-footer .logo-text .help{
+        font-size: 45px;
+    }
+    .logo-text  p{
+        font-weight: 500;
+        font-size: 25px;
+    }
+    .footer .term p{
+        font-size: 15px;
+        width: 350px;
+    }
+    .footer .all-footer .logo{
+        width: 100px;
+    }
+    .all-footer .logo-text{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        font-size: 10px;
+        width: 300px;
+    }
+    
+    
+    
+
+}
+@media (min-width:768px) and (max-width:991px){
+    .nav-bar .CARL{
+        font-size: 22px;
+    }
+    .background{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+    .background .back-g{
+        position: relative;
+        top: 150px;
+    }
+    .come{
+        grid-column: span 2;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .phase3 .all-phase3 .might-image{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        
+    }
+    .carrier-image .bag-carrier-text h1{
+        width: 150px;
+        font-size: 40px;
+    }
+    .carrier-image .bag-carrier-text #p1{
+        width: 330px;
+        font-size: 17px;
+    }
+    .carrier-image .bag-carrier-text .shop{
+        width: 300px;
+    }
+    .bag-carrier-text .shop{
+        width: 200px;
+    }
+    .all-phase4 .carrier-image{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .bag-carrier-text .shop{
+        width: 350px;
+        height: 50px;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px; 
+    }
+    .all-phase3 .might-image .img{
+        width: 350px;
+    }
+    .all-phase5 .phase5-img2 img{
+        width: 300px;
+    } 
+    .all-phase6 .phase6-all-text{
+        bottom: 150px;
+        gap: 15px;
+        left: 50px; 
+        font-size: 20px;  
+    }
+    .all-phase6 .phase6-all-text .phase6-text p{
+        width: 300px;
+        font-size: 25px;
+    }
+    .all-footer .logo-text{
+        display: grid;
+    }   
+
+    .footer .all-footer{
+        display: grid;
+    }
+    .footer .term{
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start;
+    }   
+    .phase7 .all-phase7 .phase7-image img{
+        width: 230px;
+    } 
+    .phase7 .all-phase7 .phase7-image1 img{
+        width: 230px;
+    } 
+    .phase7 .all-phase7 .phase7-image #p4{
+        width: 180px;
+    }
+    .phase7 .all-phase7 .phase7-image1 #p4{
+        width: 180px;
+    }
+}
+
