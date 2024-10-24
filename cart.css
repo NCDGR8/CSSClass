@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-container {
+    display: none;
+    margin: 40px auto;
+    padding: 15px 1rem;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+}
+
+
+i{
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input {
+    display: none;
+}
+
+input:checked ~ .card-container{
+    display: block;
+}
+
+button{
+    width: 320px;
+    height: 70px;
+    border: 0;
+    color: #fff;
+    background: #3C1006;
+    position: absolute;
+    /* bottom: -10; */
+    cursor: pointer;
+}
