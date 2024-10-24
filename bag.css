@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Space Grotesk", sans-serif; */
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    overflow-x: hidden !important;
+}
+.material{
+    background-color: #ffffff;
+    padding: 5px 25px;
+    /* height: 100vh; */
+}
+.our{
+    width: 100%;
+    height: 100vh;
+    text-align: start;
+    display: flex;
+    place-content: center;
+    justify-content: center;
+    /* padding-top: 35vh; */
+
+}
+.ourtext{
+    width: 35%;
+    align-items: center;
+    color: #5f261b;
+    padding-top: 300px;
+}
+.ourtext h1{
+    font-size: 35px;
+    
+    
+}
+.ourtext p{
+    font-size: 18px;
+    word-spacing: 3px;
+    padding-top: 10px;
+    
+}
+.poly{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.polytext{
+    width: 50%;
+    padding-top: 200px;
+}
+.polytext h3{
+    color: #5f261b;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.polytext p{
+    color: #5f261b;
+    padding-bottom: 20px;
+    line-height: 1.4rem;
+    font-size: 15px;
+    font-weight: 300;
+}
+.polyimage img{
+    width: 100%;
+    height: 700px;
+   
+}
+.list{
+    background-color: #faf8f5;
+    padding: 10px 25px;
+}
+.list ul{
+    text-align: center;
+}
+.list ul li{
+    list-style: none;
+    color: #5a5b74;
+    padding-top: 20px;
+}
+
+
+/* medium screen */
+
+@media (min-width: 767px) and (max-width: 991px){
+    .material{
+        width: 100% !important;
+    }
+    .our{
+        padding: 0;
+        /* padding-top: 400px; */
+        height: 100vh;
+    
+    }
+    .ourtext{
+        width: 70%;
+        padding-top: 400px;
+        align-items: center;
+        color: #5f261b;
+    }
+    
+    .poly{
+        display: flex;
+        flex-direction: column;
+        width: 100vw !important;
+        
+        /* width: 100% !important; */
+    }
+    .ba{
+        display: flex;
+        gap: 10px;
+        width: max-content;
+    }
+    .polytext{
+        width: 100% !important;
+        height: fit-content;
+        padding: 0;
+    }
+    .polytext h3{
+        font-size: 30px;
+    }
+    .polytext p{
+        font-size: 21px;
+    }
+    .bags{
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll !important;
+        gap: 100px;
+        /* width: 100% !important; */
+        
+    }
+    .polyimage{
+        width: 100% !important;
+        margin-top: auto;
+    }
+
+    
+}
+
+/* small screen */
+@media (min-width: 200px) and (max-width: 767px){
+    .material{
+        width: 100% !important;
+    }
+    .our{
+        padding: 0;
+        
+        height: 100vh;
+    
+    }
+    .ourtext{
+        width: 100%;
+        
+        align-items: center;
+        color: #5f261b;
+    }
+    .ourtext P{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .poly{
+        display: flex;
+        flex-direction: column;
+        width: 100vw !important;
+       
+    }
+    .ba{
+        display: flex;
+        gap: 100px;
+        width: max-content;
+    }
+    .polytext{
+        padding-top: 0px;
+    }
+    .polytext{
+        width: 100% !important;
+        height: fit-content;
+        padding: 0;
+    }
+    .bags{
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll !important;
+        gap: 100px;
+        width: 100% !important;
+        
+    }
+    .polyimage{
+        width: 100% !important;
+        margin-top: auto;
+    }
+
+}
