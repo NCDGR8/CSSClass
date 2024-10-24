@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="cart.css">
     <script src="https://kit.fontawesome.com/68c3b335ce.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -44,7 +45,9 @@
                                 NG
                             </li>
                             <li>
-                                <a href=""><i class="fa-solid fa-bag-shopping fa-2x"></i></a>
+                                <label for="toggle">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </label>
                             </li>
                             <li>
                                 <a href=""><i class="fa-solid fa-bars"></i></a>
@@ -52,7 +55,15 @@
                         </ul>
                     </nav>
                 </div>
-        </div>        
+        </div>  
+        <input type="checkbox" id="toggle">
+
+        <div class="card-container">
+            <i class="fa fa-times"></i>
+            <h4>Bag</h4>
+            <p>Your bag is empty</p>
+            <button>Countine shopping</button>
+        </div>      
     </section>
     <section class="background">
         <div class="back-g">
@@ -193,7 +204,7 @@
         </div>
     </section>
 
-    <section class="footer">
+    <footer class="footer">
         <div class="all-footer">
             <div class="logo">
                 <img src="images/cf-logo.png" alt="">
@@ -232,7 +243,7 @@
             <p>Terms & conditions</p>
             <p>Privacy & cookies policy</p>
         </div>
-    </section>
+    </footer>
    
 </body>
 </html>

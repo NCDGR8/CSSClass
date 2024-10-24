@@ -4,13 +4,18 @@
     box-sizing: border-box;
 }
 
-.card-container {
+.nav-heading .card-container {
     display: none;
-    margin: 40px auto;
+    /* margin: 40px auto; */
     padding: 15px 1rem;
     width: 350px;
     height: 350px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+    position: absolute;
+    z-index: 99;
+    top: 0%;
+    right: 3%;
+    transform: translateY(60px);
+    background: white;
 }
 
 
@@ -28,13 +33,14 @@ input:checked ~ .card-container{
     display: block;
 }
 
-button{
+.nav-heading .card-container button{
     width: 320px;
     height: 70px;
     border: 0;
     color: #fff;
     background: #3C1006;
     position: absolute;
-    /* bottom: -10; */
+    bottom: 10px;
     cursor: pointer;
+    /* margin-top: auto !important; */
 }

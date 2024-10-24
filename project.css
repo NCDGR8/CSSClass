@@ -4,6 +4,7 @@
 }
 .nav-heading{
     background-color: white;
+    position: relative;
 } 
 .nav-heading .nav-bar{
     display: flex;
