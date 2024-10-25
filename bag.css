@@ -142,9 +142,12 @@ body{
 
 /* small screen */
 @media (min-width: 200px) and (max-width: 767px){
+    .all-items .nav1 .ul1{
+        display: none !important;
+    }
     .material{
         width: 100% !important;
-    }
+    };
     .our{
         padding: 0;
         
