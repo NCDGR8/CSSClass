@@ -341,71 +341,6 @@
     .phase7 .all-phase7 .phase7-text2{
         bottom: 700px;
     }
-    
-    .all-footer .logo-text{
-        display: grid;
-    }  
-    .footer{
-        padding: 0;
-        width: 100%;
-    }  
-    .footer .all-footer{
-        display: grid;
-    }
-    .footer .term{
-        display: flex;
-        gap: 10px;
-        justify-content: flex-start;
-    }    
-    .all-footer .logo .input{
-        background-color: white;
-        width: 350px;
-        height: 60px;
-    }
-    .all-footer .logo .input input{
-        border: 0;
-        width: 250px;
-        height: 60px;
-        padding: 0px 0px 0px 20px;
-    }
-    .all-footer .logo .input button{
-        height: 60px;
-        border: 0;
-        width: 45px;
-        background-color: white;
-        padding: 0px 20px 0px 0px;
-    }
-    .footer .all-footer .logo h3{
-        width: 350px;
-        font-weight: 500;
-        /* font-size: 30px;  */
-        color: white;
-    }
-    .footer .all-footer .logo img{
-        width: 200px;
-        color: white;
-    }
-    .all-footer .logo-text .help{
-        font-size: 45px;
-    }
-    .logo-text  p{
-        font-weight: 500;
-        font-size: 25px;
-    }
-    .footer .term p{
-        font-size: 15px;
-        width: 350px;
-    }
-    .footer .all-footer .logo{
-        width: 100px;
-    }
-    .all-footer .logo-text{
-        display: flex;
-        flex-direction: column;
-        gap: 70px;
-        font-size: 10px;
-        width: 300px;
-    } 
 
 }
 
@@ -478,18 +413,6 @@
         width: 300px;
         font-size: 25px;
     }
-    /* .all-footer .logo-text{
-        display: grid;
-    }   
-
-    .footer .all-footer{
-        display: grid;
-    }
-    .footer .term{
-        display: flex;
-        gap: 10px;
-        justify-content: flex-start;
-    }    */
     .phase7 .all-phase7 .phase7-image img{
         width: 230px;
     } 
