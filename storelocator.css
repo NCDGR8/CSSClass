@@ -1,0 +1,860 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.first-page{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient( #33333341, #33333342), url(https://cdn.shopify.com/s/files/1/0373/9909/files/carl-friedrik-store-desktop_ae55824e-e9b6-440f-bb4f-c4b95f3653fd.jpg?v=1722268853&width=2000&height=1125&crop=center);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text{
+  width: 45%;
+}
+
+.text h4{
+  color: white;
+  font-size: 40px;
+  font-family:  "Poppins", sans-serif;
+  padding-top: 170px;
+  margin-left: 50px;
+  
+}
+
+.text p{
+  color: white;
+  margin-left: 50px;
+  font-family:"Poppins", sans-serif;
+  margin-top: 10px;
+}
+
+.text1{
+  display: none;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 60px;
+
+}
+ 
+.carl p{
+  font-size: 25px;
+  color: black;
+  font-family:"Poppins", sans-serif ;
+}
+
+.carl-img img{
+  width: 800px;
+  height: 500px;
+}
+
+.carll{
+  display: flex;
+  gap: 200PX;
+}
+
+.carll p{
+  font-size: 15px;
+  font-family:"Poppins", sans-serif ;
+  margin-top: 100px;
+
+}
+
+.address-contact{
+  display: flex;
+  position: absolute;
+  gap: 95px;
+  margin-top: 20px;
+
+}
+
+.address-contact p{
+  width: 25%;
+  font-family:"Poppins", sans-serif ;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.index-time p{
+  margin-top: 120px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.index-day{
+  display: flex;
+  position: absolute;
+  gap: 120px;
+  margin-top: 20px;
+}
+
+.index-day p{
+  width: 25%;
+  font-family:"Poppins", sans-serif ;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.united p{
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10%;
+  margin-left: 50px;
+}
+
+.alluk{
+  display: flex;
+  gap: 30px;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.united-kingdom h5{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 30px;
+  
+}
+
+.united-kingdom p{
+  width: 66%;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+}
+
+.line-ll{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line{
+  border: 0.5px solid rgba(0, 0, 0, 0.452);
+  width: 95%;
+  margin-top: 30px;
+}
+
+.united-states{
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.allus{
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.united-state h5{
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  font-family:  "Poppins", sans-serif;
+  font-size: 15px;
+  padding-bottom: 30px;
+  
+}
+
+.united-state p{
+  width: 47%;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+}
+
+.h-c{
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.h-c h5{
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  font-family:  "Poppins", sans-serif;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.h-c p{
+  width: 12%;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+}
+
+.france{
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.france-text h5{
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  font-family:  "Poppins", sans-serif;
+  font-size: 15px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.france-text p{
+  width: 15%;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+  margin-left: 50px;  
+}
+
+.Sweden{
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.sweden-text h5{
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  font-family:  "Poppins", sans-serif;
+  font-size: 15px;
+  padding-bottom: 25px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.sweden-text p{
+  width: 10%;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+  margin-left: 50px;  
+}
+
+.spain{
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.all-sp{
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.spain-text h5{
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  font-family:  "Poppins", sans-serif;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.spain-text p{
+  width: 62%;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+}
+
+.sp{
+  margin-top: 23px;
+}
+
+.austria{
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 50px;
+  margin-left: 50px; 
+}
+
+.austria-text h5{
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  font-family:  "Poppins", sans-serif;
+  font-size: 15px;
+  padding-bottom: 25px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.austria-text p{
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+  margin-left: 50px
+}
+
+.czech-republic{
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.czech-republic-text h5{
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  font-family:  "Poppins", sans-serif;
+  font-size: 15px;
+  padding-bottom: 30px;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.czech-republic-text p{
+  width: 19%;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+  margin-left: 50px;
+}
+
+.philippines{
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.philippines-text h5{
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  font-family:  "Poppins", sans-serif;
+  font-size: 15px;
+  padding-bottom: 30px;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.philippines-text p{
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+  margin-left: 50px;  
+}
+
+.p-p{
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.box{
+  width: 100%;
+  height: 170px;
+  background-color: rgb(250,248,245);
+  margin-top: 50px;
+}
+
+.box-text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top:48px ;
+}
+
+.box-text p{
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* midium scrren */
+
+@media(min-width: 767px) and (max-width:991px){
+  .first-page{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0373/9909/files/carl-friedrik-store-desktop_ae55824e-e9b6-440f-bb4f-c4b95f3653fd.jpg?v=1722268853&width=2000&height=1125&crop=center);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .text{
+    padding-top: 50px;
+  }
+  .text1{
+    display: none;
+  }
+
+  .text h4{
+    font-size: 30px !important;
+  }
+  .text p{
+    width: 450px;
+    font-size: 15px !important;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .carl p{
+    font-size: 20px !important;
+     padding-left: 30px;
+  }
+  .carll{
+    display: flex;
+    gap: 18%;
+  }
+  .carll p{
+    
+    font-size: 16px !important;
+  }
+  .address-contact p{
+    /* width: 50%; */
+    font-size: 16px !important;
+   
+  }
+  .address-contact{
+    display: flex;
+    gap: 50px;
+  }
+  .index-time p{
+    font-size: 16px !important;
+  }
+  .index-day p{
+    font-size: 13px !important;
+  }
+  .index-day{
+    display: flex;
+    gap: 50px;
+  }
+  .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  
+  .alluk{
+    display: flex;
+    flex-direction: column;
+    width: 180px ;
+  }
+  .line-ll{
+    width: 760px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .united-kingdom h5{
+    font-size: 20px !important;
+    font-weight: 600;
+  }
+  .united-states p{
+    font-size: 25px !important;
+    margin-right: 5 0px !important;
+  }
+  .allus{
+    display: flex;
+    flex-direction: column;
+  }
+  .united-state h5{
+    width: 44%;
+    font-size: 19px !important;
+    font-size: 600;
+    margin-top: 20px;
+  }
+  .united-state p{
+    width: 20%;
+  }
+  .h-c h5{
+    width: 44%;
+    font-size: 19px !important;
+    font-size: 600;
+    margin-right: 33px;
+  }
+  .h-c p{
+    width: 20%;
+  }
+  .france p{
+    font-size: 25px !important;
+    margin-right: 5 0px !important; 
+  }
+  .france-text h5{
+    width: 44%;
+    font-size: 19px !important;
+    font-size: 600;
+    margin-top: 60px;
+    margin-right: 33px;
+  }
+  .france-text p{
+    font-size: 20px !important;
+    width: 27%;
+  }
+  .Sweden p{
+    font-size: 25px !important;
+    margin-right: 50px !important; 
+  }
+  .spain p{
+    font-size: 30px !important;
+    margin-right: 5 0px !important; 
+
+  }
+  .all-sp{
+    display: flex;
+    flex-direction: column;
+    width: 280px ;
+    margin-top: 50px;
+  }
+  .spain-text h5{
+    width: 44%;
+    font-size: 19px !important;
+    font-size: 600;
+    margin-top: 30px;
+    margin-right: 33px;
+  }
+  .spain-text p{
+    font-size: 16px !important;
+    width: 89%;
+  }
+  .austria p{
+    font-size: 25px !important;
+    margin-right: 50px !important; 
+  }
+  .austria-text h5{
+    width: 44%;
+    font-size: 19px !important;
+    font-size: 600;
+    margin-top: 30px;
+    margin-right: 33px;
+  }
+  .austria-text p{
+    font-size: 16px !important;
+    width: 89%;
+  }
+  .czech-republic p{
+    font-size: 25px !important;
+    margin-right: 50px !important;
+    margin-top: 50px;
+  }
+  .czech-republic-text h5{
+    width: 44%;
+    font-size: 19px !important;
+    font-size: 600;
+    margin-top: 30px;
+    margin-right: 33px;
+  }
+  .czech-republic-text p{
+    font-size: 16px !important;
+    width: 24%;
+  }
+  .philippines p{
+    font-size: 25px !important;
+    margin-right: 50px !important; 
+  }
+  .philippines-text h5{
+    width: 44%;
+    font-size: 19px !important;
+    font-size: 600;
+    margin-top: 30px;
+    margin-right: 33px;
+  }
+  .philippines-text p{
+    font-size: 16px !important;
+    width: 156%;
+  }
+}
+
+/* small screen */
+
+@media(min-width: 200px) and (max-width:767px){
+  .first-page{
+    width: 100% !important;
+    height: 550px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0373/9909/files/carl-friedrik-store-desktop_ae55824e-e9b6-440f-bb4f-c4b95f3653fd.jpg?v=1722268853&width=2000&height=1125&crop=center);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover !important;
+  }
+  .text{
+    padding-top: 50px;
+    display: none;
+  }
+
+  .text1{
+    margin-top: 70px;
+    margin-left: 20px;
+  }
+  .text1 h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+  }
+  .text1 p{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    width: 87%;
+    margin-top: 30px;
+    line-height: 23px;
+  }
+
+  .text h4{
+    font-size: 30px !important;
+  }
+  .text p{
+    width: 450px;
+    font-size: 15px !important;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .carl p{
+    font-size: 24px !important;
+     padding-left: 26px;
+  }
+  .carll{
+    display: flex;
+    gap: 92px;
+  }
+  .carll p{
+    font-size: 20px !important;
+  }
+  .address-contact p{
+    width: 46%;
+    font-size: 16px !important;
+   
+  }
+  .address-contact{
+    display: flex;
+    gap: 20px;
+  }
+  .index-time p{
+    font-size: 16px !important;
+  }
+  .index-day p{
+    font-size: 13px !important;
+    width: 130%;
+  }
+  .index-day{
+    display: flex;
+    gap: 50px;
+  }
+  .img{
+    width: 363px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+  }
+  
+  .alluk{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .line-ll{
+    width: 370px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .united p{
+    font-size: 26px;
+    margin-left: 20px;
+  }
+  .united-kingdom h5{
+    font-size: 18px !important;
+    font-weight: 600;
+    margin-right: 70px;
+  }
+  .united-states p{
+    font-size: 26px !important;
+    margin-left: 3%!important;
+    position: absolute;
+    left: 12px;
+  }
+  .allus{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 190%;
+  }
+  .united-state h5{
+    width: 44%;
+    font-size: 19px !important;
+    font-size: 600;
+    margin-top: 100px;
+  }
+  .united-state p{
+    width: 20%;
+  }
+  .h-c{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 190%;
+  }
+  .h-c h5{
+    width: 44%;
+    font-size: 19px !important;
+    font-size: 600;
+    margin-right: 33px;
+  }
+  .h-c p{
+    width: 20%;
+  }
+  
+  .france p{
+    font-size: 25px !important;
+    padding-right: 10%;
+    position: absolute;
+    left: 27px;
+  }
+  .france-text h5{
+    width: 150%;
+    font-size: 19px !important;
+    margin-top: 100px;
+    margin-left: 6%;
+  }
+  .france-text p{
+    font-size: 17px !important;
+    width: 60%;
+    margin-left: 6%;
+  }
+  .sweden-text h5{
+    font-size: 19px;
+    margin-left: 6%;
+    margin-top: 100PX;
+  }
+  .sweden-text p{
+    width: 62%;
+    font-size: 17px;
+    margin-left: 6%;
+  }
+  .Sweden p{
+    font-size: 25px !important;
+    margin-right: 50px !important; 
+    position: absolute;
+    left: 25px;
+  }
+  .spain p{
+    font-size: 30px !important;
+    margin-right: 5 0px !important; 
+    position: absolute;
+    left: 25PX;
+
+  }
+  .all-sp{
+    display: flex;
+    flex-direction: column;
+    width: 280px ;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .spain-text h5{
+    width: 120%;
+    font-size: 19px !important;
+    font-size: 600;
+    margin-top: 60px;
+    margin-right: 20px;
+  }
+  .spain-text p{
+    font-size: 16px !important;
+    width: 89%;
+    margin-right: 6%;
+  }
+  .austria p{
+    font-size: 25px !important;
+    margin-right: 50px !important;
+    position: absolute;
+    left: 25px; 
+  
+  }
+  .austria-text h5{
+    width: 44%;
+    font-size: 19px !important;
+    font-size: 600;
+    margin-top: 94px;
+    margin-left: 6%;
+  }
+  .austria-text p{
+    font-size: 16px !important;
+    width: 89%;
+    margin-left: 6%;
+  }
+  .czech-republic p{
+    font-size: 25px !important;
+    margin-right: 50px !important;
+    /* margin-top: 50px; */
+    position: absolute;
+    left: 27px;
+  }
+  .czech-republic-text h5{
+    width: 100%;
+    font-size: 19px !important;
+    font-size: 600;
+    margin-top: 30%;
+    margin-left: 6%;
+  }
+  .czech-republic-text p{
+    font-size: 16px !important;
+    width: 30%;
+    margin-left: 6%;
+  }
+  .philippines p{
+    font-size: 25px !important;
+    margin-right: 50px !important; 
+    position: absolute;
+    left: 26px;
+    width: 100% !;
+  }
+.p-p{
+  width: 100%;
+}
+  .philippines-text h5{
+    width: 44%;
+    font-size: 19px !important;
+    font-size: 600;
+    margin-top: 100px;
+    margin-left: 6%;
+  }
+  .philippines-text p{
+    font-size: 16px !important;
+    width: 50%;
+    margin-left: 7%;
+  }
+  .box{
+    height: 100%;
+    width: 100%;
+  }
+
+  .box-text p{
+    font-size: 15px;
+  }
+  .text1{
+    display: block;
+  }
+  
+}
