@@ -1,0 +1,1216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* overflow: hidden; */
+}
+.hero-newarrivals{
+    padding: 20px 3rem;
+    height: 130vh;
+}
+
+.hero-newarrivals .header-txt{
+    line-height: 1.6em;
+}
+
+.hero-newarrivals .header-txt h1{
+    font-size: 35px;
+    line-height: 1.8em;
+    font-weight: 100;
+    font-style: normal;
+    word-spacing: 0px;
+}
+
+.hero-newarrivals .header-txt p{
+   font-size: 18px;
+   width: 400px;
+}
+
+.hero-newarrivals .header-txt .para{
+    margin-top: 45px;
+}
+
+.hero-newarrivals .header-imgs .img1 img{
+    width: 100%;
+}
+
+.hero-newarrivals .img2 img{
+    height: 525px;
+}
+
+.hero-newarrivals .header-imgs{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.hero-newarrivals .header-imgs .header-txt{
+    margin-top: 20px;
+}
+
+.hero-newarrivals .header-imgs .header-txt .p2{
+    color: rgb(94, 90, 90);
+    font-size: 18px;
+}
+
+.hero-newarrivals .header-imgs .header-txt .p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero-newarrivals .header-imgs .header-txt .p4{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.hero-newarrivals .header-imgs .header-txt .p3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero-newarrivals .header-imgs .img2 .headbtm-txt{
+    text-decoration: underline;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bagsec-2 .bagsec-cont{
+    height: 100vh;
+    padding: 30px 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.bagsec-2 .bagsec-cont .bag1 .bag-txt{
+    margin-top: 10px;
+}
+
+.bagsec-2 .bagsec-cont .bag1 .bag-txt .p2{
+    color: rgb(94, 90, 90);
+    font-size: 18px;
+}
+
+.bagsec-2 .bagsec-cont .bag1 .bag-txt .p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bagsec-2 .bagsec-cont .bag1 .bag-txt .p4{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.bagsec-2 .bagsec-cont .bag1 .bag-txt .p3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bagsec-2 .bagsec-cont .bag2 .bag-txt1{
+    margin-top: 20px;
+}
+
+.bagsec-2 .bagsec-cont .bag2 .bag-txt1 .p2{
+    color: rgb(94, 90, 90);
+    font-size: 18px;
+}
+
+.bagsec-2 .bagsec-cont .bag2 .bag-txt1 .p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bagsec-2 .bagsec-cont .bag2 .bag-txt1 .p4{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.bagsec-2 .bagsec-cont .bag2 .bag-txt1 .p3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bagsec-2 .bagsec-cont .bag3 .bag-txt2 {
+    margin-top: 20px;
+}
+
+.bagsec-2 .bagsec-cont .bag3 .img-limitededition img{
+    position: relative;
+}
+
+.bagsec-2 .bagsec-cont .bag3 .img-limitededition .le{
+    position: absolute;
+    background: rgb(151, 127, 96);
+    padding: 10px 15px;
+    top: 145%;
+    margin-left: 20px;
+}
+
+.bagsec-2 .bagsec-cont .bag3 .bag-txt2 .p-1{
+    color: rgb(94, 90, 90);
+    font-size: 18px;
+}
+
+.bagsec-2 .bagsec-cont .bag3 .bag-txt2 .p-2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bagsec-2 .bagsec-cont .bag3 .bag-txt2 .p-3{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.bagsec-2 .bagsec-cont .bag3 .bag-txt2 .p-4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bag-sec3 .bagsec3-cont{
+    padding: 30px 3rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.bag-sec3 .bagsec3-cont .image1{
+    position: relative;
+}
+
+.bag-sec3 .bagsec3-cont .imgtxt{
+    position: absolute;
+    top: 430px;
+}
+
+.bag-sec3 .bagsec3-cont .imgtxt h2{
+    font-size: 45px;
+    color: #fff;
+    font-family: serif;
+}
+
+.bag-sec3 .bagsec3-cont .pp{
+    padding: 20px;
+}
+
+.bag-sec3 .bagsec3-cont .image1 p{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.bag-sec3 .bagsec3-cont .image2 .img2-txt .p1{
+    color: rgb(94, 90, 90);
+    font-size: 18px;
+}
+
+.bag-sec3 .bagsec3-cont .image2 .img2-txt{
+    padding: 20px;
+}
+
+.bag-sec3 .bagsec3-cont .image2 .img2-txt .p2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bag-sec3 .bagsec3-cont .image2 .img2-txt .p3{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.bag-sec3 .bagsec3-cont .image2 .img2-txt .p4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sec4 .sec4-cont{
+    height: 100vh;
+    padding: 30px 3rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.sec4 .sec4-cont .sec4-im .sec4-txt{
+    padding: 20px 0px;
+}
+
+.sec4 .sec4-cont .sec4-im .sec4-txt .p1{
+    color: rgb(94, 90, 90);
+    font-size: 18px;
+}
+
+.sec4 .sec4-cont .sec4-im .sec4-txt .p2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sec4 .sec4-cont .sec4-im .sec4-txt .p3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sec4 .sec4-cont .sec4-im .sec4-txt .p4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bagsec5 .sec5-cont .sect5-img{
+    height: 120vh;
+    padding: 30px 3rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
+.bagsec5 .sec5-cont .sect5-img .imgtext{
+    padding: 20px 0px;
+}
+
+.bagsec5 .sec5-cont .sect5-img .imgtext .p1{
+    color: rgb(94, 90, 90);
+    font-size: 16px;
+}
+
+.bagsec5 .sec5-cont .sect5-img .imgtext .p2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bagsec5 .sec5-cont .sect5-img .imgtext .p3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bagsec5 .sec5-cont .sect5-img .imgtext .p4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bagsec5 .sec5-cont .sect5-img .imgtext .p-{
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.bagsec5 .sec5-cont .sect5-img .img1 .sec5-hoverim img{
+    position: relative;
+}
+
+
+.bagsec5 .sec5-cont .sect5-img .img2 .sec5-hoverim .hover-im{
+    position: absolute;
+    top: 480%;
+    color: #fff;
+    font-size: 50px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.section-6 .sec6img-cont{
+    height: 120vh;
+    padding: 30px 3rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.section-6 .sec6img-cont .image1 img{
+    position: relative;
+}
+
+.section-6 .sec6img-cont .image1 .sec6txt{
+    position: absolute;
+    bottom: -585%;
+    padding-left: 25px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.section-6 .sec6img-cont .secim .sec6-txt{
+    padding: 20px 0px;
+}
+
+.section-6 .sec6img-cont .secim .sec6-txt .p--{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.section-6 .sec6img-cont .image2 .sec6-txt .p1{
+    color: rgb(94, 90, 90);
+    font-size: 16px;
+}
+
+.section-6 .sec6img-cont .image2 .sec6-txt .p2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-6 .sec6img-cont .image2 .sec6-txt .p3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-6 .sec6img-cont .image2 .sec6-txt .p4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-x .bagsecx-cont{
+    height: 110vh;
+    padding: 30px 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.section-x .bagsecx-cont .sec-x .p1{
+    color: rgb(94, 90, 90);
+    font-size: 16px;
+}
+
+.section-x .bagsecx-cont .sec-x .p2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-x .bagsecx-cont .sec-x .p3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-x .bagsecx-cont .sec-x .p4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-x .bagsecx-cont .sec-x{
+    padding: 20px 0px;
+}
+
+.bag-section7 .bgsec-7{
+    padding: 30px 3rem;
+    height: 120vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.bag-section7 .bgsec-7 .bg .txt{
+    padding: 20px 0px;
+}
+
+.bag-section7 .bgsec-7 .bg .txt .p1{
+    color: rgb(94, 90, 90);
+    font-size: 16px;
+}
+
+.bag-section7 .bgsec-7 .bg .txt .p2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bag-section7 .bgsec-7 .bg .txt .p3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bag-section7 .bgsec-7 .bg .txt .p4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bag-section7 .bgsec-7 .img3 img{
+    position: relative;
+}
+
+.bag-section7 .bgsec-7 .img3 .hover-img{
+    position: absolute;
+    top: 780%;
+    margin-left: 20px;
+    padding: 20px;
+    background: rgb(151, 127, 96);
+    color: #fff;
+}
+
+.section-8 .bagsect8-cont{
+    height: 110vh;
+    padding: 30px 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.section-8 .bagsect8-cont .sect8 .p1{
+    color: rgb(94, 90, 90);
+    font-size: 16px;
+}
+
+.section-8 .bagsect8-cont .sect8 .p2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-8 .bagsect8-cont .sect8 .p3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-8 .bagsect8-cont .sect8 .p4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-8 .bagsect8-cont .sect8{
+    padding: 20px 0px;
+}
+
+.section-9 .sec9-cont{
+    padding: 30px 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.section-9 .sec9-cont .sec-9 .sec9-txt .p1{
+    color: rgb(94, 90, 90);
+    font-size: 16px;
+}
+
+.section-9 .sec9-cont .sec-9 .sec9-txt .p2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-9 .sec9-cont .sec-9 .sec9-txt .p3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-9 .sec9-cont .sec-9 .sec9-txt .p4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-10 .sec10-cont{
+    height: 110vh;
+    padding: 30px 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.section-10 .sec10-cont .sec10 .txt{
+    margin-top: 20px;
+}
+
+.section-10 .sec10-cont .sec10 .txt .p1{
+    color: rgb(94, 90, 90);
+    font-size: 16px;
+}
+
+.section-10 .sec10-cont .sec10 .im-lim img{
+    position: relative;
+    object-fit: cover;
+}
+
+.section-10 .sec10-cont .sec10 .im-lim p{
+    position: absolute;
+    top: 910%;
+    background: rgb(151, 127, 96);
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.section-10 .sec10-cont .sec10 .txt .p2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-10 .sec10-cont .sec10 .txt .p3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-10 .sec10-cont .sec10 .txt .p4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-11 .sec11-cont{
+    height: 110vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px 3rem;
+}
+
+.section-11 .sec11-cont .sec-11 .sec11{
+    margin-top: 20px;
+}
+
+.section-11 .sec11-cont .sec-11 .sec11 .p1{
+    color: rgb(94, 90, 90);
+    font-size: 16px;
+}
+
+.section-11 .sec11-cont .sec-11 .sec11 .p2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-11 .sec11-cont .sec-11 .sec11 .p3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-11 .sec11-cont .sec-11 .sec11 .p4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-12 .sec12-cont{
+    height: 110vh;
+    padding: 30px 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* padding-bottom: 20px; */
+}
+
+.section-12 .sec12-cont .sec12-img .txt{
+    margin-top: 20px;
+}
+
+.section-12 .sec12-cont .sec12-img .txt .p1{
+    color: rgb(94, 90, 90);
+    font-size: 16px;
+}
+
+.section-12 .sec12-cont .sec12-img .txt .p2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-12 .sec12-cont .sec12-img .txt .p3{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-12 .sec12-cont .sec12-img .txt .p4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.assurance .ass-cont{
+    height: 20vh;
+    background: rgb(247, 241, 241);
+}
+
+.assurance .ass-cont .ass-text ul{
+    list-style: none;
+    text-align: center;
+    padding-top: 40px;
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .hero-newarrivals .header-txt h1{
+        font-size: 50px;
+    }
+
+    .hero-newarrivals .header-txt .para-{
+        font-size: 24px;
+    }
+
+    .hero-newarrivals .header-txt .para{
+        font-size: 25px;
+    }
+
+    .hero-newarrivals .header-imgs .headimg{
+    }
+
+    .hero-newarrivals .header-imgs .img1 .header-txt p{
+        font-size: 25px;
+    }
+
+    .hero-newarrivals .header-imgs .img2 .headbtm-txt p{
+        font-size: 25px;
+    }
+
+    .hero-newarrivals .header-imgs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hero-newarrivals{
+        height: 100vh;
+    }
+
+    .bagsec-2 .bagsec-cont{
+        height: 160vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bagsec-2 .bagsec-cont .bag3{
+        grid-column: span 2;
+    }
+
+    .bagsec-2 .bagsec-cont .bag3 .img-limitededition .le{
+        position: relative;
+    }
+    
+    .bagsec-2 .bagsec-cont .bag3 .img-limitededition .le{
+        position: absolute;
+        top: 170%;
+        color: #fff;
+    }
+
+    .bagsec-2 .bagsec-cont .school .bag-txt .p{
+        font-size: 25px;
+    }
+    .bagsec-2 .bagsec-cont .school .bag-txt .p4{
+        font-size: 25px;
+    }
+
+    .bagsec-2 .bagsec-cont .school .bag-txt .p3{
+        font-size: 25px;
+    }
+
+    .bagsec-2 .bagsec-cont .school .bag-txt .p2{
+        font-size: 25px;
+    }
+
+    .bagsec-2 .bagsec-cont .school .bag-txt1 .p{
+        font-size: 25px;
+    }
+    .bagsec-2 .bagsec-cont .school .bag-txt1 .p4{
+        font-size: 25px;
+    }
+
+    .bagsec-2 .bagsec-cont .school .bag-txt1 .p3{
+        font-size: 25px;
+    }
+
+    .bagsec-2 .bagsec-cont .school .bag-txt1 .p2{
+        font-size: 25px;
+    }
+
+    .bagsec-2 .bagsec-cont .school .bag-txt2 .p{
+        font-size: 25px;
+    }
+    .bagsec-2 .bagsec-cont .school .bag-txt2 .p4{
+        font-size: 25px;
+    }
+
+    .bagsec-2 .bagsec-cont .school .bag-txt2 .p3{
+        font-size: 25px;
+    }
+
+    .bagsec-2 .bagsec-cont .school .bag-txt2 .p2{
+        font-size: 25px;
+    }
+
+    .bag-sec3 .bagsec3-cont{
+        height: 130vh;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    } 
+
+    .bag-sec3 .bagsec3-cont .bg3-img .pp{
+        font-size: 27px;
+    }
+
+    .bag-sec3 .bagsec3-cont .bg3-img .img2-txt .p1{
+        font-size: 25px;
+    }
+
+    .bag-sec3 .bagsec3-cont .bg3-img .img2-txt .p2{
+        font-size: 25px;
+    }
+
+    .bag-sec3 .bagsec3-cont .bg3-img .img2-txt .p3{
+        font-size: 25px;
+    }
+    
+    .bag-sec3 .bagsec3-cont .bg3-img .img2-txt .p4{
+        font-size: 25px;
+    }
+
+    .sec4 .sec4-cont{
+        height: 160vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sec4 .sec4-cont .img3{
+        grid-column: span 2;
+    }
+
+    .sec4 .sec4-cont .sec4-im .sec4-txt .p1{
+        font-size: 25px;
+    }
+
+    .sec4 .sec4-cont .sec4-im .sec4-txt .p2{
+        font-size: 25px;
+    }
+
+    .sec4 .sec4-cont .sec4-im .sec4-txt .p3{
+        font-size: 25px;
+    }
+
+    .sec4 .sec4-cont .sec4-im .sec4-txt .p4{
+        font-size: 25px;
+    }
+
+    .bagsec5 .sec5-cont .sect5-img{
+        height: 150vh;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bagsec5 .sec5-cont .sect5-img .img1 .sec5-hoverim img{
+        position: relative;
+    }
+
+    .bagsec5 .sec5-cont .sect5-img .img2 .sec5-hoverim .hover-im{
+        position: absolute;
+        top: 700%;
+        color: #fff;
+    }
+
+    .bagsec5 .sec5-cont .sect5-img .img1 .imgtext .p-{
+        font-size: 27px;
+    }
+
+    .section-x .bagsecx-cont{
+        height: 160vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-x .bagsecx-cont .bag3{
+        grid-column: span 2;
+    }
+
+    .section-x .bagsecx-cont .secx .txt .p1{
+        font-size: 25px;
+    }
+
+    .section-x .bagsecx-cont .secx .txt .p2{
+        font-size: 25px;
+    }
+
+    .section-x .bagsecx-cont .secx .txt .p3{
+        font-size: 25px;
+    }
+
+    .section-x .bagsecx-cont .secx .txt .p4{
+        font-size: 25px;
+    }
+
+
+    .section-6 .sec6img-cont{
+        height: 160vh;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-6 .sec6img-cont .secim img{
+        height: 700px;
+        object-fit: cover;
+    }
+
+    .section-6 .sec6img-cont .secim  .sec6-txt p{
+        font-size: 25px
+    }
+
+    .section-6 .sec6img-cont .image1 img{
+        position: relative;
+        object-fit: cover;
+    }
+
+    .section-6 .sec6img-cont .image1 .sec6txt{
+        position: absolute;
+        top: 940%;
+        font-size: 35px;
+        color: #fff;
+    }
+
+    .section-6 .sec6img-cont .image2 .sec6-txt .p1{
+        font-size: 25px;
+    }
+
+    .section-6 .sec6img-cont .image2 .sec6-txt .p2{
+        font-size: 25px;
+    }
+
+    .section-6 .sec6img-cont .image2 .sec6-txt .p3{
+        font-size: 25px;
+    }
+
+    .section-6 .sec6img-cont .image2 .sec6-txt .p4{
+        font-size: 25px;
+    }
+
+    .bag-section7 .bgsec-7{
+        height: 160vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bag-section7 .bgsec-7 .img3 img{
+        position: relative;
+        object-fit: cover;
+    }
+
+    .bag-section7 .bgsec-7 .img3 .hover-img{
+        position: absolute;
+        top: 1125%;
+    }
+
+    .bag-section7 .bgsec-7 .img3{
+        grid-column: span 2;
+    }
+
+    .bag-section7 .bgsec-7 .bg .txt .p1{
+        font-size: 25px;
+    }
+
+    .bag-section7 .bgsec-7 .bg .txt .p2{
+        font-size: 25px;
+    }
+
+    .bag-section7 .bgsec-7 .bg .txt .p3{
+        font-size: 25px;
+    }
+
+    .bag-section7 .bgsec-7 .bg .txt .p4{
+        font-size: 25px;
+    }
+
+    .section-8 .bagsect8-cont{
+        height: 160vh;
+        padding: 30px 3rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-8 .bagsect8-cont .img3{
+        grid-column: span 2;
+    }
+
+    .section-8 .bagsect8-cont .sect8-img .sect8 .p1{
+        font-size: 25px;
+    }
+
+    .section-8 .bagsect8-cont .sect8-img .sect8 .p2{
+        font-size: 25px;
+    }
+
+    .section-8 .bagsect8-cont .sect8-img .sect8 .p3{
+        font-size: 25px;
+    }
+
+    .section-8 .bagsect8-cont .sect8-img .sect8 .p4{
+        font-size: 25px;
+    }
+
+    .section-9 .sec9-cont{
+        height: 160vh;
+        padding: 30px 3rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-9 .sec9-cont .img3{
+        grid-column: span 2;
+    }
+
+    .section-9 .sec9-cont .sec-9 .sec9-txt .p1{
+        font-size: 25px;
+    }
+
+    .section-9 .sec9-cont .sec-9 .sec9-txt .p2{
+        font-size: 25px;
+    }
+
+    .section-9 .sec9-cont .sec-9 .sec9-txt .p3{
+        font-size: 25px;
+    }
+
+    .section-9 .sec9-cont .sec-9 .sec9-txt .p4{
+        font-size: 25px;
+    }
+
+    .section-10 .sec10-cont{
+        height: 160vh;
+        padding: 30px 3rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-10 .sec10-cont .img3{
+        grid-column: span 2;
+    }
+
+    .section-10 .sec10-cont .sec10 .im-lim img{
+        position: relative;
+        object-fit: cover;
+    }
+
+    .section-10 .sec10-cont .sec10 .im-lim p{
+        position: absolute;
+        top: 1562%;
+        color: #fff;
+    }
+
+    .section-10 .sec10-cont .sec10 .txt .p1{
+        font-size: 25px;
+    }
+
+    .section-10 .sec10-cont .sec10 .txt .p2{
+        font-size: 25px;
+    }
+
+    .section-10 .sec10-cont .sec10 .txt .p3{
+        font-size: 25px;
+    }
+
+    .section-10 .sec10-cont .sec10 .txt .p4{
+        font-size: 25px;
+    }
+
+    .section-11 .sec11-cont{
+        height: 130vh;
+        padding: 30px 3rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-11 .sec11-cont .img3{
+        grid-column: span 2;
+    }
+
+    .section-11 .sec11-cont .sec-11 .txt .p1{
+        font-size: 25px;
+    }
+
+    .section-11 .sec11-cont .sec-11 .txt .p2{
+        font-size: 25px;
+    }
+
+    .section-11 .sec11-cont .sec-11 .txt .p3{
+        font-size: 25px;
+    }
+
+    .section-11 .sec11-cont .sec-11 .txt .p4{
+        font-size: 25px;
+    }
+
+    .section-12 .sec12-cont{
+        height: 60vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column: span 2;
+    }
+
+    .section-12 .sec12-cont .sec12-img .txt .p1{
+        font-size: 25px;
+    }
+
+    .section-12 .sec12-cont .sec12-img .txt .p2{
+        font-size: 25px;
+    }
+
+    .section-12 .sec12-cont .sec12-img .txt .p3{
+        font-size: 25px;
+    }
+
+    .section-12 .sec12-cont .sec12-img .txt .p4{
+        font-size: 25px;
+    }
+
+    .assurance .ass-cont .ass-text ul{
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width:200px) and (max-width:767px) {
+    .hero-newarrivals .header-txt h1{
+        font-size: 30px;
+    }
+
+    .hero-newarrivals .header-txt .para-{
+        font-size: 20px;
+        width: 300px;
+        margin-top: 15px;
+    }
+
+    .hero-newarrivals{
+        height: 200vh;
+        padding: 30px 3rem;
+    }
+
+    .hero-newarrivals .header-imgs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hero-newarrivals .header-imgs .headimg img{
+        width: 70%;
+    }
+
+    .bagsec-2 .bagsec-cont{
+        padding: 30px 3rem;
+        height: 250vh;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bagsec-2 .bagsec-cont .bag3 .img-limitededition img{
+        position: relative;
+    }
+
+    .bagsec-2 .bagsec-cont .bag3 .img-limitededition .le{
+        position: absolute;
+        top: 385%;
+    }
+
+    .bag-sec3 .bagsec3-cont{
+        height: 200vh;
+        padding: 30px 3rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bag-sec3 .bagsec3-cont .image1 .imgtxt h2{
+        font-size: 30px;
+    }
+
+    .sec4 .sec4-cont{
+        height: 230vh;
+        padding: 30px 3rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bagsec5 .sec5-cont .sect5-img{
+        height: 200vh;
+        padding: 30px 3rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bagsec5 .sec5-cont .sect5-img .img2 .sec5-hoverim img{
+        position: relative;
+        object-fit: cover;
+    }
+
+    .bagsec5 .sec5-cont .sect5-img .img2 .sec5-hoverim .hover-im{
+        position: absolute;
+        top: 1100%;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .section-x .bagsecx-cont{
+        height: 230vh;
+        padding: 30px 3rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-6 .sec6img-cont{
+        height: 170vh;
+        padding: 30px 3rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-6 .sec6img-cont .image1 img{
+        position: relative;
+    }
+
+    .section-6 .sec6img-cont .image1 .sec6txt{
+        position: absolute;
+        top: 1405%;
+        font-size: 20px;
+        width: 230px;
+    }
+
+    .bag-section7 .bgsec-7{
+        height: 240vh;
+        padding: 30px 3rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bag-section7  .bgsec-7 .img3 img{
+        position: relative;
+    }
+
+    .bag-section7  .bgsec-7 .img3 .hover-img{
+      position: absolute;
+       top: 1720%;
+    }
+
+    .section-8 .bagsect8-cont{
+        height: 250vh;
+        padding: 30px 3rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-9 .sec9-cont{
+        height: 230vh;
+        padding: 30px 3rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-10 .sec10-cont{
+        height: 230vh;
+        padding: 30px 3rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-10 .sec10-cont .img1 .im-lim img{
+        position: relative;
+    }
+
+    .section-10 .sec10-cont .sec10 .im-lim p{
+        position: absolute;
+        top: 2299%;
+    }
+
+    .section-10 .sec10-cont .img2 .im-lim p{
+        top: 2375%;
+    }
+
+    .section-11 .sec11-cont{
+        height: 240vh;
+        padding: 30px 3rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-11 .sec11-cont .sec-11 img{
+        width: 100%;
+    }
+
+    .section-12 .sec12-cont{
+        height: 80vh;
+        padding: 30px 3rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+
+    }
+
+    .section-12 .sec12-cont .sec12-img img{
+        width: 100%;
+    }
+}
