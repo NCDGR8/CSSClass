@@ -18,6 +18,9 @@
     background: white;
 }
 
+.all{
+    display: flex;
+}
 
 i{
     margin-top: 10px;

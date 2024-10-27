@@ -212,17 +212,14 @@
     }
 }
 
-@media (min-width:767px) and (max-widht:991px){
+@media (min-width:767px) and (max-width:991px){
     .all-footer .logo-text{
         display: grid;
     }   
-
-    /* .footer .all-footer{
-        display: grid;
-    } */
     .footer .all-footer{
         flex-direction: column !important;
-        border: 2px solid white;
+        gap: 1rem;
+        /* text-align: left; */
     }
     .footer .term{
         display: flex;
