@@ -18,9 +18,6 @@
     background: white;
 }
 
-.all{
-    display: flex;
-}
 
 i{
     margin-top: 10px;
@@ -32,9 +29,13 @@ input {
     display: none;
 }
 
-input:checked ~ .card-container{
+input:checked ~ .card-container>.all{
     display: block;
 }
+
+/* .cancel input{
+    display: none;
+} */
 
 .nav-heading .card-container button{
     width: 320px;
