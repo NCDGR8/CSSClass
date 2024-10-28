@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.nav-heading .card-container {
+.card-container {
     display: none;
     /* margin: 40px auto; */
     padding: 15px 1rem;
@@ -25,19 +25,33 @@ i{
     cursor: pointer;
 }
 
-input {
+#toggle{
     display: none;
 }
 
-input:checked ~ .card-container>.all{
+#toggle:checked ~ .card-container{
     display: block;
+}
+
+#close{
+    display: none;
+}
+
+#close:checked .all{
+    display: none;
+}
+
+.all{
+    display: flex;
+    gap: 2rem;
+    padding-top: ;
 }
 
 /* .cancel input{
     display: none;
 } */
 
-.nav-heading .card-container button{
+/* .nav-heading .card-container button{
     width: 320px;
     height: 70px;
     border: 0;
@@ -47,4 +61,4 @@ input:checked ~ .card-container>.all{
     bottom: 10px;
     cursor: pointer;
     /* margin-top: auto !important; */
-}
+} */

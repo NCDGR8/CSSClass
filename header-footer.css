@@ -20,6 +20,7 @@
     justify-content: center;
     gap: 20px;
 }
+
 .all-items .nav1 .ul1, .all-items .nav2 .ul2{
     display: flex;
     align-items: center;
@@ -138,14 +139,46 @@
     font-size: 14px;
 }
 
+.fa-times{
+    display: none;
+}
+
 @media (min-width:200px) and (max-width:767px){
     .phase5{
         padding: 10px 1rem;
     }
+
+    .all-items{
+
+    }
     
     .all-items .nav1 .ul1{
+        display: block;
+    }
+    .all-items .nav1{
+        position: absolute;
+        background: rgb(95, 12, 12);
+        height: 100vh;
+        width: 250px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 99;
+        color: white;
+    }
+
+    .fa-times{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .all-items .nav2 .ul2{
         display: none;
     }
+
     .all-footer .logo-text{
         display: grid;
     }  
