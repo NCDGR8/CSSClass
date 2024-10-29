@@ -4,29 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="header-footer.css">
+    <script src="https://kit.fontawesome.com/68c3b335ce.js" crossorigin="anonymous"></script>
 </head>
-<link rel="stylesheet" href="about.css">
 <body>
+    <section class="nav-heading">
+        <nav class="nav-bar">   
+            <div>
+                <h2>CARL FRIEDRICK</h2>
+            </div> 
+            <div class="list">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="newarrivals.html">New Arrivals</a>
+                    </li>
+                    <li>
+                        <a href="Luggage.html">Luggage</a>
+                    </li>
+                    <li>
+                        <a href="Backpacks.html">Bag</a>
+                    </li>
+                    <li>
+                        <a href="">Accessories</a></li>
+                    <li>
+                        <a href="Journal.html">Journal</a></li>
+                    <li>
+                        <a href="">Discover</a></li>
+                    <li>
+                        <a href="storelocator.html">store locator</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>.</li>
+                    <li>
+                        <a href="#">NG</a>
+                        </li>
+                    <li>
+                        <label for="toggle">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </label>
+                    </li>
+                </ul>
+            </div>  
+       </nav>
+        <input type="checkbox" id="toggle">
+
+        <div class="card-container">
+            <div>
+                <h4>Bag</h4>
+            </div>
+            <div>
+                <i class="fa fa-times"></i>
+            </div>            
+            <p>Your bag is empty</p>
+            <button>Countine shopping</button>
+        </div>      
+    </section>
+
     <section class="sec1">
-        <div class="lala">
+        
             <div class="texts">
                 <h1>Carry with confidence</h1>
                 <p class="p1">Carl Friedrik advocates for a certain kind of travel. <br> Journeys that are seamless and smooth. Elevated even.
                 </p>
                 <p class="p2">But no trip unfolds seamlessly without reliable travel <br>companions.</p>
             </div> 
-        </div>
-        <div class="pics">
-            <div class="pic1"><img src="pic1.jpg" alt=""></div>
-            <div class="pic2"><img src="pic2.webp" alt=""></div>
-             <div class="pic3"><img src="pic3.webp" alt=""></div>
-        </div>
+        
+            <div class="pics">
+                <div class="first-part">
+                    <div class="pic1"><img src="images/pic1.jpg" alt=""></div>
+                    <div class="pic2"><img src="images/pic2.webp" alt=""></div>
+                </div>
+                <div class="pic3"><img src="images/pic3.webp" alt=""></div>
+            </div>
+            
     </section>
     
+    <section class="image"></section>
+
     <section class="sec2">
-        <div class="pic4">
-            <img src="pic4.webp" alt="">
-        </div>
+       
         <div class="text2">
             <h3>Our approach</h3>
             <p class="p3">Bags should last. Suitcases shouldn’t falter. Accessories <br>must perform over a lifetime’s worth of journeys.
@@ -41,9 +102,9 @@
 
       
         <div class="pica">
-            <div class="pic5"><img src="pic5.webp" alt=""></div>
-            <div class="pic6"><img src="pic6.jpg" alt=""></div>
-            <div class="pic7"><img src="pic7.webp" alt=""></div>
+            <div class="pic5"><img src="images/pic5.webp" alt=""></div>
+            <div class="pic6"><img src="images/pic6.jpg" alt=""></div>
+            <div class="pic7"><img src="images/pic7.webp" alt=""></div>
         </div>
         <div class="last">
             <p>Lifetime warranty</p>
@@ -51,6 +112,47 @@
             <p>100-day trial</p>
         </div>
     </section>
+
+    <footer class="footer">
+        <div class="all-footer">
+            <div class="logo">
+                <img src="images/cf-logo.png" alt="">
+                <h3>Be the first to know about new collections and everything Carl Friedrik.</h3>
+                <div class="input">
+                    <input type="text" name="" id="" placeholder="Enter your email">
+                    <button>Submit</button>
+                </div>
+            </div>
+            <div class="logo-text">
+                <div class="help3 help">
+                    <h4>Company</h4>
+                    <p>About</p>
+                    <p>Material</p>
+                    <p>Press</p>
+                    <p>Careers</p>
+                    <p>Visitors</p>
+                </div>
+                <div class="help2 help">
+                    <h4>Custome Care</h4>
+                    <p>Track my order</p>
+                    <p>Start a return</p>
+                    <p>Shipping & Returns</p>
+                    <p>Help</p>
+                    <p>Contact</p>
+                    <p>Warranty</p>
+                </div>
+                <div class="help help1">
+                    <h4>Contact</h4>
+                    <p>Instagram</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="term">
+            <p>Terms & conditions</p>
+            <p>Privacy & cookies policy</p>
+        </div>
+    </footer>
 
     
 </body>

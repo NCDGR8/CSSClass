@@ -2,72 +2,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
-
-
+body{
+    width: 100% !important;
+}
+img{
+    width: 100% !important;
+}
 .texts{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: #5f261b;
     align-items: center;
-    padding-top: 250px;
+    color: #5f261b;
     font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    /* position: fixed; */
-    z-index: -1;
-    bottom: 300px;
-    left: 500px;   
     font-size: 100px;
-}
-.lala{
+    position: sticky;
+    top: 0;
+    z-index: -1;
     height: 100vh;
 }
 
 .texts h1{
+    padding-bottom: 30px;
     font-size: 50px;
-    padding-right: 30px;
-
+    /* padding-right: 30px; */ 
 }
 
 .texts .p1{
-    line-height: 35px;
+    line-height: 35px; 
     font-size: 23px;
+    margin-left: 45px;
 }
 .texts .p2{
-    padding-top: 20px;
+    padding-top: 20px; 
     font-size: 23px;
     line-height: 35px;
-    padding-right: 20px;
+    /* padding-right: 20px; */
 }
-.pics{
-    position: absolute;
+.sec1 .pics{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
 }
-.pics .pic1{
-    position: absolute;
-    left: 100px;
-    
+.sec1 .pics .first-part{
+    display: grid;
+    gap: 300px;
 }
- .pics .pic2{
-    position: absolute;
-    left: 900px;
-    top: 150px;
-} 
-.pics .pic3{
-    position: relative;
-    left: 180px;
-    top: 750px;
-
-    
+.sec1 .pics .first-part .pic2{
+    transform: translateX(150px);
 }
- .sec2{
-    padding-top: 1500px;
-    height: 400vh;
-    
+.sec1 .pics .pic3{
+    transform: translateX(140px);
 }
-.pic4{
-    
-    overflow-x: hidden;
+.image{
+    background: url("images/pic4.webp"); 
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 15rem;
 }
 .text2{
     padding-top: 300px;
@@ -117,6 +114,7 @@ h4{
 }
 .pic6{
     padding-top: 300px;
+    
 }
 .pic7{
     padding-top: 300px;
@@ -133,10 +131,79 @@ h4{
      flex-direction: column;
 
 }
-@media (min-width:200px) and (max-width:767px) {
-    body{
-        width: 100%;
-        height: 100%;
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .sec1 .pics{
+        flex-direction: column;
+        width: 90%;
+        gap: 100px;
+    }
+    .sec1 .pics .first-part{
+        gap: 100px !important;
+    }
+    .sec1 .pics .first-part .pic2{
+        transform: translateX(0px);
+    }
+    .sec2 .text2 h4{
+     padding-left: 150px;   
+    }
+    .sec2 .text2 h3{
+        padding-left: 150px;   
+       }
+       
+    .sec1 .pics .pic3{
+        transform: translateX(0px);
     }
 }
  
+@media (min-width:200px) and (max-width:767px) {
+    
+    .texts{
+        height: 100vh;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .texts h1{
+        padding-left: 50px;
+
+    }
+    .texts .p2{
+        padding-left: 50px;
+    }
+    .sec2 .text2{
+        padding-left: 20px;
+    }
+    .sec2 .text2 h4{
+        padding-right: 0px;
+        width: 100% !important;
+    }
+    .sec2 .text2 h3{
+        padding-right: 20px;
+    }
+    .sec1 .pics{
+        flex-direction: column;
+        width: 80%;
+        gap: 50px;
+    }
+    .sec1 .pics .first-part{
+        gap: 700px !important;
+    }
+    .sec1 .pics .first-part .pic2{
+        transform: translateX(0px);
+    }
+    .sec1 .pics .pic3{
+        transform: translateX(0px);
+    }
+    .pica{
+        margin: 0 auto;
+    }
+    .last{
+        font-size: 19px;
+    }
+    .image{
+         width: 100%;
+    }
+    
+    
+}

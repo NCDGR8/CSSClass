@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+    overflow-x: hidden;
+}
+.Journal-note {
+    padding: 10px 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    width: 100%; 
+    background-color: rgba(247, 246, 246, 0.836);    
+}
+.Text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    position: relative;
+    right: 30px;
+    padding-top: 40px;
+    font-size: 18px; 
+    padding-left: 25px;
+}
+.Text h1 {
+    font-size: 40px;
+    /* color: rgba(165, 42, 42, 0.938); */
+    color: #5f261b;
+}
+.Text h4 {
+    font-size: 10px;
+    color: #606060; ;
+}
+.Text p {
+    color: #5f261b;
+    line-height: 15px;
+    white-space: nowrap;
+}
+
+.Journal-note .btn button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5f261b;
+    width: 300px;
+    height: 50px;
+    border: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fa-greater-than{
+    color: white;
+}
+
+.Journal-note .image {
+    width: 70vw;
+    /* height: 90vh; */
+    
+}
+
+.Journal-note .image img {
+    width: 100%;
+    height: 100%;   
+    
+}
+
+.Latest-post{
+    /* line-height: 50px; */
+    justify-content: center;
+    height: max-content !important;
+    padding: 10px 3rem;
+}
+.Latest-post .text{
+    padding: 50px;
+    height: 10px;
+    
+}
+
+.Latest-post .latest-image {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    
+}
+
+.Latest-post .img1{
+    width: 50%;
+    height: max-content !important;
+}
+
+.Latest-post .img1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.travel-guide .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    background-color: rgba(247, 246, 246, 0.836);
+
+}
+
+.travel-guide .text img{
+    width: 35%;
+    height: 500px;
+}
+marquee{
+    position: absolute;
+    top: 50% !important;
+    
+}
+marquee .allSponsor{
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 40px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nat{
+    display: flex; 
+    gap: 10px;
+    align-items: center;
+}
+.pat{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 30px;
+}
+.pats{
+    color: #5f261b;
+    
+}
+.travel-guide .btn{
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: white;
+}
+.All-post{
+    width: 100%;
+    padding: 10px 3rem;
+}
+.test{
+    display: flex !important;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.last{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding-top: 40px;
+    gap: 30px;
+}
+.All-post .text{
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.All-post button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+.All-post .travel-image{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.img2{
+    width: 650px;
+}
+.img2 img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.All-post .travel-image img{
+    width: 620px;
+    height: 80vh;
+    object-fit: cover;
+}
+.All-post .travel-image2{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.All-post .travel-image2 img{
+    width: 630px;
+    height: 80vh;
+    object-fit: cover;
+}
+.All-post .travel-image3{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+}
+
+.All-post .travel-image3 img{
+    width: 630px;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.surprise{
+    border: 1px solid rgba(0, 0, 0, 0.37);
+}
+
+
+    
+ @media (min-width: 767px) and (max-width: 991px) {
+    .Journal-note {
+        padding: 10px 3rem;
+        display: block !important;
+        background-color: rgba(247, 246, 246, 0.836);   
+        
+    }
+    .body{
+        overflow: hidden;
+    }
+    .Text{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        position: relative;
+        right: 30px;
+        padding-top: 40px;
+        font-size: 18px; 
+    }
+    .Text h1 {
+        font-size: 30px;
+        /* color: rgba(165, 42, 42, 0.938); */
+        color: #5f261b;
+    }
+    .Text h4 {
+        font-size: 20px;
+        color: #606060; ;
+    }
+    .Text p {
+        color: #5f261b;
+        font-size: 20px;
+        line-height: 10px;
+        white-space: nowrap;
+    }
+    .Journal-note .btn button{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #5f261b;
+        width: 600px;
+        height: 40px;
+        border: none;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .fa-greater-than{
+        color: white;
+    }
+    .Journal-note .image {
+        width: 100vw;
+    }
+    .Journal-note .image img {
+        width: 90%;
+        height: 100%;
+        
+    }
+
+    .Latest-post{
+        justify-content: center;
+        height: max-content !important;
+        padding: 10px 3rem;
+    }
+    .Latest-post .text{
+        padding: 50px;
+        height: 10px;
+        
+    }
+    .Latest-post .latest-image {
+        display: block !important;
+        gap: 60px;
+        /* width: 100%; */
+        
+    }
+    .Latest-post .img1{
+        width: 90vw;
+        height: max-content !important;
+    }
+    .Latest-post .img1 img {
+        width: 100%;
+        height: 100%;
+    }
+    .latest-image .img1 h1 {
+        font-size: 10px;
+    }
+    .latest-image .img1 h5{
+        font-size: 9px;
+    }
+
+    .travel-guide .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        position: relative;
+        background-color: rgba(247, 246, 246, 0.836);
+        padding: 10px 3rem;
+    
+    }
+    .travel-guide .text img{
+        width: 35%;
+        height: 500px;
+        display: none;
+    }
+    .travel-guide .text{
+        height: 80vh;
+        gap: 600px;
+    }
+    marquee{
+        position: absolute;
+        top: 50% !important;
+    }
+    marquee .allSponsor{
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 40px;
+        font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .eachSponsor{
+        display: flex;
+        color: #5f261b;
+    }
+    .eachSponsor1{
+        display: flex;
+        color: #5f261b;
+    }
+    .eachSponsor2{
+        display: flex;
+        color: #5f261b;
+    }
+    .travel-guide .btn{
+        width: 250px;
+        height: 60px;
+        font-size: 20px;
+        background-color: white;
+        border-radius: white;
+    }
+
+    .All-post{
+        padding: 10px 3rem;
+    }
+    .All-post .text{
+        display: block !important;
+        font-size: 30px;
+    }
+    .All-post button {
+        width: 800px;
+        height: 40px;
+    }
+    .All-post .travel-image{
+        display: block !important;
+        gap: 30px;
+        justify-content: center;
+        
+    }
+    .All-post .travel-image2{
+        display: block !important;
+        gap: 30px;
+        justify-content: center;
+    }
+    .All-post .travel-image3{
+        display: block !important;
+        gap: 30px;
+        justify-content: center;
+    }
+    .surprise{
+        border: 1px solid rgba(0, 0, 0, 0.37);
+    }
+ }
+
+
+ @media (min-width: 200px) and (max-width: 767px) {
+    .Journal-note {
+        flex-direction: column-reverse;   
+        width: 100vw;
+        padding: 2px;
+        gap: 0;
+        align-items: start;
+        justify-content: none;
+    }
+    .Journal-note .image{
+        width:370px;
+    }
+    .Text{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        position: relative;
+        right: 15px;
+        position: relative;
+        left: 8px;
+        padding-top: 40px;
+        font-size: 18px;
+        
+    }
+    .Text p {
+        color: #5f261b;
+        font-size: 20px;
+        line-height: 20px;
+        /* width: 100px; */
+        white-space: wrap;
+    }
+    
+.Latest-post .latest-image {
+    flex-direction: column;
+    width: 730px;
+    padding-right: 150px;
+    font-size: 15px;    
+}
+
+
+.travel-guide .text img{
+    width: 100%;
+    height: 500px;
+}
+.All-post .travel-image img,.All-post .travel-image2 img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+.last{
+    grid-template-columns: 1fr;
+}
+.img2{
+    width: 100%;
+}
+.test{
+    flex-direction: column;
+}
+.test .btn{
+    margin-top: 10px;
+}
+}

@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
-.card-container {
+body{
+    position: relative;
+}
+
+
+
+.card-container{
     display: none;
-    /* margin: 40px auto; */
     padding: 15px 1rem;
     width: 350px;
     height: 350px;
@@ -18,40 +23,27 @@
     background: white;
 }
 
-
 i{
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
-}
-
-#toggle{
-    display: none;
+    padding-bottom: 20px;
 }
 
 #toggle:checked ~ .card-container{
     display: block;
 }
-
-#close{
-    display: none;
-}
-
-#close:checked .all{
-    display: none;
-}
-
+ 
 .all{
     display: flex;
     gap: 2rem;
-    padding-top: ;
 }
 
-/* .cancel input{
+input{
     display: none;
-} */
+}
 
-/* .nav-heading .card-container button{
+.nav-heading .card-container button{
     width: 320px;
     height: 70px;
     border: 0;
@@ -60,5 +52,4 @@ i{
     position: absolute;
     bottom: 10px;
     cursor: pointer;
-    /* margin-top: auto !important; */
-} */
+}
