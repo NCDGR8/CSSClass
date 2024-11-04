@@ -34,7 +34,7 @@ i{
     display: block;
 }
  
-.all{
+.card-container .all div{
     display: flex;
     gap: 2rem;
 }
