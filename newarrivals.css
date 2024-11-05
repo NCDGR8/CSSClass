@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* overflow: hidden; */
+    box-sizing: border-box;
 }
+
+body{
+    overflow-x: hidden;
+}
+
 .hero-newarrivals{
     padding: 15px 2rem;
-    height: 130vh;
+    height: 140vh;
 }
 
 .hero-newarrivals .header-txt{
@@ -30,12 +35,8 @@
     margin-top: 45px;
 }
 
-.hero-newarrivals .header-imgs .img1 img{
-    width: 100%;
-}
-
 .hero-newarrivals .img2 img{
-    height: 525px;
+    height: 500px;
 }
 
 .hero-newarrivals .header-imgs{
@@ -77,7 +78,7 @@
 }
 
 .bagsec-2 .bagsec-cont{
-    height: 100vh;
+    height: 110vh;
     padding: 30px 3rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -144,7 +145,7 @@
     position: absolute;
     background: rgb(151, 127, 96);
     padding: 10px 15px;
-    top: 145%;
+    top: 100%;
     margin-left: 20px;
 }
 
@@ -169,6 +170,7 @@
 }
 
 .bag-sec3 .bagsec3-cont{
+    height: 110vh;
     padding: 30px 3rem;
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -181,7 +183,7 @@
 
 .bag-sec3 .bagsec3-cont .imgtxt{
     position: absolute;
-    top: 430px;
+    top: 0;
 }
 
 .bag-sec3 .bagsec3-cont .imgtxt h2{
@@ -225,7 +227,7 @@
 }
 
 .sec4 .sec4-cont{
-    height: 100vh;
+    height: 110vh;
     padding: 30px 3rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -308,7 +310,7 @@
 }
 
 .section-6 .sec6img-cont{
-    height: 120vh;
+    height: 130vh;
     padding: 30px 3rem;
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -358,7 +360,7 @@
 }
 
 .section-x .bagsecx-cont{
-    height: 110vh;
+    height: 120vh;
     padding: 30px 3rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -391,7 +393,7 @@
 
 .bag-section7 .bgsec-7{
     padding: 30px 3rem;
-    height: 120vh;
+    height: 110vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -427,7 +429,7 @@
 
 .bag-section7 .bgsec-7 .img3 .hover-img{
     position: absolute;
-    top: 780%;
+    top: 0;
     margin-left: 20px;
     padding: 20px;
     background: rgb(151, 127, 96);
@@ -467,6 +469,7 @@
 }
 
 .section-9 .sec9-cont{
+    height: 120vh;
     padding: 30px 3rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -512,12 +515,11 @@
 
 .section-10 .sec10-cont .sec10 .im-lim img{
     position: relative;
-    object-fit: cover;
 }
 
 .section-10 .sec10-cont .sec10 .im-lim p{
     position: absolute;
-    top: 910%;
+    top: 0;
     background: rgb(151, 127, 96);
     padding: 20px;
     margin-left: 20px;
@@ -575,7 +577,6 @@
     padding: 30px 3rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* padding-bottom: 20px; */
 }
 
 .section-12 .sec12-cont .sec12-img .txt{
@@ -613,6 +614,7 @@
     padding-top: 40px;
 }
 
+
 @media (min-width:768px) and (max-width:991px) {
     .hero-newarrivals .header-txt h1{
         font-size: 50px;
@@ -647,7 +649,7 @@
     }
 
     .bagsec-2 .bagsec-cont{
-        height: 160vh;
+        height: 180vh;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -712,7 +714,7 @@
     }
 
     .bag-sec3 .bagsec3-cont{
-        height: 130vh;
+        height: 150vh;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     } 
@@ -738,7 +740,7 @@
     }
 
     .sec4 .sec4-cont{
-        height: 160vh;
+        height: 170vh;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -764,7 +766,7 @@
     }
 
     .bagsec5 .sec5-cont .sect5-img{
-        height: 150vh;
+        height: 180vh;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -775,7 +777,7 @@
 
     .bagsec5 .sec5-cont .sect5-img .img2 .sec5-hoverim .hover-im{
         position: absolute;
-        top: 700%;
+        /* top: 700%; */
         color: #fff;
     }
 
@@ -784,7 +786,7 @@
     }
 
     .section-x .bagsecx-cont{
-        height: 160vh;
+        height: 170vh;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -811,7 +813,7 @@
 
 
     .section-6 .sec6img-cont{
-        height: 160vh;
+        height: 170vh;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -832,7 +834,7 @@
 
     .section-6 .sec6img-cont .image1 .sec6txt{
         position: absolute;
-        top: 940%;
+        /* top: 940%; */
         font-size: 35px;
         color: #fff;
     }
@@ -854,7 +856,7 @@
     }
 
     .bag-section7 .bgsec-7{
-        height: 160vh;
+        height: 170vh;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -890,7 +892,7 @@
     }
 
     .section-8 .bagsect8-cont{
-        height: 160vh;
+        height: 170vh;
         padding: 30px 3rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -917,7 +919,7 @@
     }
 
     .section-9 .sec9-cont{
-        height: 160vh;
+        height: 170vh;
         padding: 30px 3rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -944,7 +946,7 @@
     }
 
     .section-10 .sec10-cont{
-        height: 160vh;
+        height: 180vh;
         padding: 30px 3rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -982,7 +984,7 @@
     }
 
     .section-11 .sec11-cont{
-        height: 130vh;
+        height: 180vh;
         padding: 30px 3rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1009,7 +1011,7 @@
     }
 
     .section-12 .sec12-cont{
-        height: 60vh;
+        height: 70vh;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-column: span 2;
@@ -1123,7 +1125,7 @@
     }
 
     .section-6 .sec6img-cont{
-        height: 170vh;
+        height: 220vh;
         padding: 30px 3rem;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -1191,7 +1193,7 @@
     }
 
     .section-11 .sec11-cont{
-        height: 240vh;
+        height: 260vh;
         padding: 30px 3rem;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -1206,8 +1208,6 @@
         padding: 30px 3rem;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        
-
     }
 
     .section-12 .sec12-cont .sec12-img img{
