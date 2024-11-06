@@ -134,6 +134,9 @@
 }
 .all-phase5 .phase5-img1{
     font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .all-phase5 .phase5-img1 .first{
     font-weight: 500;
@@ -318,10 +321,17 @@
         font-weight: 450;
         padding: 30px 0px 60px 0px;
     }
+    .all-phase5 .phase5-img1 .first{
+        font-weight: 500;
+        display: flex;
+        gap: 30px;
+    }
     .all-phase5 .phase5-img2 img{
         width: 300px;
     }
-    
+    .all-phase5 .phase5-img1 .first p{
+        text-decoration: none;
+    }
     .all-phase5 .phase5-img1 .first{
         display: grid;
         grid-area: 10px;
