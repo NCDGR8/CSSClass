@@ -8,6 +8,13 @@ body{
     position: relative;
 }
 
+#toggle:checked ~ .card-container{
+    display: block !important;
+}
+#bar-toggle:checked ~ .bar-info{
+    display: block !important;
+}
+
 
 
 .card-container{
@@ -17,30 +24,41 @@ body{
     height: 350px;
     position: absolute;
     z-index: 99;
-    top: 0%;
+    top: 10px;
     right: 3%;
-    transform: translateY(60px);
+    transform: translateY(80px);
     background: white;
 }
 
+.bar-info{
+    display: none;
+    position: absolute;
+    z-index: 99;
+    top: 10px;
+    right: 3%;
+    transform: translateY(60px);
+    padding: 30px;
+    width: 300px;
+    height: 80vh;
+    background: orange;
+    text-align: left;
+    color: black;
+}
+
 i{
-    margin-top: 10px;
     font-size: 15px;
     cursor: pointer;
     padding-bottom: 20px;
 }
 
-#toggle:checked ~ .card-container{
-    display: block;
-}
  
 .card-container .all div{
     display: flex;
     gap: 2rem;
 }
 
-input{
-    display: none;
+#bar-toggle, #toggle{
+    /* display: none; */
 }
 
 .nav-heading .card-container button{
@@ -52,4 +70,41 @@ input{
     position: absolute;
     bottom: 10px;
     cursor: pointer;
+}
+
+.nav-bar .right .bag{
+    display: block !important;
+}
+
+.nav-bar .right .fa-bars{
+    display: none;
+}
+.bar-info{
+    display: none;
+    padding: 30px;
+    width: 300px;
+    height: 80vh;
+    background: orange;
+    text-align: left;
+    color: black;
+}
+
+@media (min-width:200px) and (max-width:767px){
+    
+    .nav-bar .right .fa-bars{
+        display: block !important;
+    }
+    
+    .nav-bar .right{
+        display: flex !important;
+        gap: 1.2rem;
+    }
+    i{
+        cursor: pointer;
+        font-size: 30px !important;
+    }
+    label{
+        display: none;
+        padding: 10px !important;
+    }
 }

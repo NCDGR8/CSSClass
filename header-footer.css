@@ -1,12 +1,11 @@
 .nav-heading{
     background-color: white;
 } 
-.nav-bar{
-    position: relative;
-}
 
 .nav-bar {
+    position: relative;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     gap: 1rem;
     padding: 20px 25px;
@@ -49,7 +48,11 @@
 .nav-bar .fa-bars{
     color: black;
 }
-
+.nav-bar .list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
 .before-footer{
     background-color: rgb(231, 229, 228);
@@ -147,37 +150,21 @@
     font-size: 14px;
 }
 
-.nav-bar .fa-bars{
-    display: none !important;
-}
-.nav-bar .fa-times{
-    display: none !important;
-}
 
-@media (min-width:200px) and (max-width:767px){
-    .nav-bar .list ul{
-        display: none;
-    }
+
+@media (min-width:200px) and (max-width:767px){   
     .nav-bar{
         padding: 15px 23px;
         height: 10vh;
     }
+/* toggle bar */
+    .nav-bar .list ul{
+        display: none;
+    }   
+    
 
     .phase5{
         padding: 10px 1rem;
-    }
-    
-    .nav-heading .nav-bar .list ul{
-        display: block;
-        gap: 2rem;
-    }
-
-    input{
-        display: none;
-    }
-
-    .all-items .nav2 .ul2{
-        display: none;
     }
 
     .all-footer .logo-text{
@@ -190,6 +177,7 @@
     .footer .all-footer{
         display: grid;
     }
+
     .footer .term{
         display: flex;
         gap: 10px;
