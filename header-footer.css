@@ -212,14 +212,17 @@
         color: white;
     }
     .all-footer .logo-text .help{
-        font-size: 45px;
+        font-size: 30px;
+    }
+    .all-footer .logo-text .help p{
+        font-size: 18px;
     }
     .logo-text  p{
         font-weight: 500;
         font-size: 25px;
     }
     .footer .term p{
-        font-size: 15px;
+        font-size: 12px;
         width: 350px;
     }
     .footer .all-footer .logo{
