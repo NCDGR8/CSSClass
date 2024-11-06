@@ -266,13 +266,18 @@
         display: grid;
     }
     .might-image .bag3 img{
-        width: 100px;
+        width: 300px;
     }
     .all-phase3 .might-image .img{
-        width: 350px;
+        width: 300px;
+        height: 300px;
+    }
+    .all-phase3 .might-image .might-image1 img{
+        width: 200px;
     }
     .phase4 .all-phase4 .phase4-first-text{
-        width: 100px;
+        width: 20px;
+        padding: 80px 0px 80px 150px;
     }
     .phase4 .all-phase4 .phase4-first-text p{
         width: 300px;
@@ -287,6 +292,7 @@
     }
     .carrier-image .bag-carrier-text h1{
         font-size: 20px;
+        padding: 0px 0px 0px 5px;
     }
     .all-phase4 .carrier-image{
         display: flex;
@@ -296,19 +302,24 @@
     }
     .carrier-image .bag-carrier-text #p1{
         width: 300px;
+        padding: 0px 0px 0px 5px;
     }
     .all-phase4 .carrier-image img{
         width: 100%;
     }
     .bag-carrier-text .shop{
-        width: 350px;
+        width: 300px;
     }
     .phase5 .all-phase5{
-        display: grid;
-        
+        display: grid; 
+    }
+    .all-phase5 .phase5-img1 h1{
+        font-size: 35px;
+        font-weight: 450;
+        padding: 30px 0px 60px 0px;
     }
     .all-phase5 .phase5-img2 img{
-        width: 370px;
+        width: 300px;
     }
     
     .all-phase5 .phase5-img1 .first{
@@ -330,10 +341,10 @@
         display: grid;
     }
     .phase7 .all-phase7 .phase7-image img{
-        width: 370px;
+        width: 330px;
     } 
     .phase7 .all-phase7 .phase7-image1 img{
-        width: 370px;
+        width: 330px;
     } 
     .phase7 .all-phase7 .phase7-text1{
         bottom: 1380px;
