@@ -192,7 +192,7 @@
         border: 0;
         width: 250px;
         height: 60px;
-        padding: 0px 0px 0px 20px;
+        /* padding: 0px 0px 0px 10px;\ */
     }
     .all-footer .logo .input button{
         height: 60px;

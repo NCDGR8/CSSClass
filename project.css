@@ -358,10 +358,16 @@
     } 
     .phase7 .all-phase7 .phase7-text1{
         bottom: 1380px;
+        font-size: 13px;
     }
     .phase7 .all-phase7 .phase7-text2{
         bottom: 700px;
+        font-size: 13px;
     }
+    .phase7 .all-phase7 .phase7-text3{
+        font-size: 13px;
+    }
+    
 
 }
 
