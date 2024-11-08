@@ -79,7 +79,7 @@ i{
 .nav-bar .right .fa-bars{
     display: none;
 }
-.bar-info{
+/* .bar-info{
     display: none;
     padding: 30px;
     width: 300px;
@@ -87,7 +87,7 @@ i{
     background: orange;
     text-align: left;
     color: black;
-}
+} */
 
 @media (min-width:200px) and (max-width:767px){
     

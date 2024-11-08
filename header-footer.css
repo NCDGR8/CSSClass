@@ -152,6 +152,8 @@
 
 
 
+
+
 @media (min-width:200px) and (max-width:767px){   
     .nav-bar{
         padding: 15px 23px;
@@ -159,8 +161,35 @@
     }
 /* toggle bar */
     .nav-bar .list ul{
-        display: none;
+        display: block !important;
     }   
+
+    .nav-bar #menu{
+        flex-direction: column;
+        position: absolute;
+        height: 100vh;
+        width: 300px;
+        top: 0;
+        right: -300px;
+        text-align: left;
+        z-index: 2;
+        background: red;
+        color: #fff;
+    }
+
+    .fa-solid{
+        display: block;
+        /* color: #fff; */
+        margin: 20px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+    /* .right ul{
+        display: flex ;
+        flex-direction: column;
+    } */
     
 
     .phase5{

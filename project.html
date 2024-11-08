@@ -72,7 +72,7 @@
             <button>Countine shopping</button>
         </div>      
     </section> -->
-    <section class="nav-heading">
+    <!-- <section class="nav-heading">
         <nav class="nav-bar">   
             <div>
               <h2><a href="project.html">CARL FRIEDRICK</a></h2>
@@ -96,7 +96,7 @@
                     <li>
                         <a href="">Discover</a></li>
                     <li>
-                        <a href="storelocator.html">store locator</a>
+                        <a href="storelocator.html">Store Locator</a>
                     </li>
                     <li>
                         <a href="about.html">About</a>
@@ -120,12 +120,14 @@
                 
                         </label>
                         <ul>
-                            <li>ealejaeuae</li>
-                            <li>ealejaeuae</li>
-                            <li>ealejaeuae</li>
-                            <li>ealejaeuae</li>
-                            <li>ealejaeuae</li>
-                            <li>ealejaeuae</li>
+                            <li>New Arrivals</li>
+                            <li>Luggage</li>
+                            <li>Bag</li>
+                            <li>Accessories</li>
+                            <li>Journal</li>
+                            <li>Discover</li>
+                            <li>storelocator</li>
+                            <li>About</li>
                         </ul>
                     </div>
 
@@ -150,7 +152,69 @@
     
 
 
+    </section> -->
+    
+    
+    
+    
+    
+    <section class="nav-heading">
+        <nav class="nav-bar">   
+            <div>
+                <h2><a href="project.html">CARL FRIEDRICK</a></h2>
+            </div> 
+            <div class="list"  id="menu">
+                <ul>
+                    <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+                    <li>
+                        <a href="newarrivals.html">New Arrivals</a>
+                    </li>
+                    <li>
+                        <a href="Luggage.html">Luggage</a>
+                    </li>
+                    <li>
+                        <a href="Backpacks.html">Bag</a>
+                    </li>
+                    <li>
+                        <a href="Accessories.html">Accessories</a></li>
+                    <li>
+                        <a href="Journal.html">Journal</a></li>
+                    <li>
+                        <a href="">Discover</a></li>
+                    <li>
+                        <a href="storelocator.html">store locator</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>.</li>
+                    <li>
+                        <a href="#">NG</a>
+                        </li>
+                    <li>
+                        <label for="toggle">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </label>
+                    </li>
+                </ul>
+            </div>  
+            <i onclick="showMenu()" class="fa-solid fa-bars "></i>
+       </nav>
+        <input type="checkbox" id="toggle">
+
+        <div class="card-container">
+            <div>
+                <h4>Bag</h4>
+            </div>
+            <div>
+                <i class="fa fa-times"></i>
+            </div>            
+            <p>Your bag is empty</p>
+            <button>Countine shopping</button>
+        </div>      
     </section>
+    
+    
     <section class="background">
         <div class="back-g">
             <h1>Venture Futher</h1>
@@ -334,12 +398,25 @@
 
 
     <script>
-        var navLinks = document.getElementById('navLinks');
-        function showMenu(){
+  /*       var navLinks = document.getElementById('navLinks');
+        function showMenu() {
             navLinks.style.right = '0';      
         }
-        function hideMenu(){
-            navLinks.style.right = "-100vw"
+        function hideMenu() {
+            navLinks.style.right = "-300px";
+        } */
+        
+        function showMenu() {
+            const menu = document.getElementById('menu')
+            if (menu.style.right === '-300px') {
+                menu.style.right = '0px'; 
+            }            
+        }
+        function hideMenu() {
+            const menu = document.getElementById('menu')
+            if (menu.style.right === '0px') {
+                menu.style.right = '-300px';
+            }            
         }
     </script>
    
