@@ -99,6 +99,7 @@
     width: 350px;
     height: 60px;
     padding: 0px 0px 0px 20px;
+    outline: none;
 }
 .all-footer .logo .input button{
     height: 60px;
@@ -214,14 +215,15 @@
     }    
     .all-footer .logo .input{
         background-color: white;
-        width: 350px;
+        width: 300px;
         height: 60px;
     }
     .all-footer .logo .input input{
         border: 0;
-        width: 250px;
+        width: 220px;
         height: 60px;
-        padding: 0px 0px 0px 20px;
+        /* padding: 0px 0px 0px 10px;\ */
+        outline: none;
     }
     .all-footer .logo .input button{
         height: 60px;
@@ -241,14 +243,17 @@
         color: white;
     }
     .all-footer .logo-text .help{
-        font-size: 45px;
+        font-size: 30px;
+    }
+    .all-footer .logo-text .help p{
+        font-size: 18px;
     }
     .logo-text  p{
         font-weight: 500;
         font-size: 25px;
     }
     .footer .term p{
-        font-size: 15px;
+        font-size: 12px;
         width: 350px;
     }
     .footer .all-footer .logo{
